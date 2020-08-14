@@ -9,7 +9,8 @@
   "husky": {
      "hooks": {
       "pre-commit": "echo 'hola desde pre-commit'",
-      "pre-push": "echo 'hola desde pre-push'"
+      "pre-push": "echo 'hola desde pre-push'",
+      "commit-msg": "git rev-parse --git-path hooks/commit-msg"
      }
   },
   "author": "",
