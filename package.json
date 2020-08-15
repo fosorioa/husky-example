@@ -10,7 +10,7 @@
      "hooks": {
       "pre-commit": "echo 'hola desde pre-commit'",
       "pre-push": "echo 'hola desde pre-push'",
-      "prepare-commit-msg": "echo $1",
+      "prepare-commit-msg": "git rev-parse --git-path hooks/commit-msg",
       "commit-msg": "echo 'hola desde commit-msg'"
      }
   },
