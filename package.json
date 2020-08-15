@@ -10,10 +10,10 @@
      "hooks": {
       "pre-commit": "echo 'hola desde pre-commit'",
       "pre-push": "echo 'hola desde pre-push'",
-      "commit-msg": "git rev-parse --git-path hooks/commit-msg"
+      "commit-msg": "exit 1"
      }
   },
-  "author": "",
+  "author": "git rev-parse --git-path hooks/commit-msg",
   "license": "ISC",
   "devDependencies": {
     "husky": "^4.2.5"

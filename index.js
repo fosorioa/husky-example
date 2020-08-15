@@ -1,1 +1,1 @@
-console.log('husky example');
+console.log('husky example....');
