@@ -11,7 +11,8 @@
       "pre-commit": "echo 'hola desde pre-commit'",
       "pre-push": "echo 'hola desde pre-push'",
       "prepare-commit-msg": "echo 'hola desde prepare-commit-msg'",
-      "commit-msg": "'$1'"
+      "commit-msg": "'$1'",
+      "post-commit": "echo 'desde post-commit'"
      }
   },
   "author": "",
