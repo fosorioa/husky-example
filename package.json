@@ -8,7 +8,7 @@
   },
   "husky": {
      "hooks": {
-      "commit-msg": "./hooks/commit-msg $1"
+      "commit-msg": "./hooks/commit-msg"
      }
   },
   "author": "",
