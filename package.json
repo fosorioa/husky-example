@@ -8,11 +8,7 @@
   },
   "husky": {
      "hooks": {
-      "pre-commit": "echo 'hola desde pre-commit'",
-      "pre-push": "echo 'hola desde pre-push'",
-      "prepare-commit-msg": "echo 'hola desde prepare-commit-msg'",
-      "commit-msg": "./hooks/commit-msg",
-      "post-commit": "echo 'desde post-commit'"
+      "commit-msg": "./hooks/commit-msg"
      }
   },
   "author": "",
